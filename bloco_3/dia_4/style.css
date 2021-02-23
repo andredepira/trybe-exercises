@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: 'Roboto',Arial, sans-serif;
+} 
+
+#main-config { 
+    float: left;
+    margin-left: 510px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h5 {
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+figure img {
+    display: block;
+    margin: auto;
+}
+
+table {
+    text-align: left;
+}
+
+header h1{
+    font-size: 50px;
+    padding: 70px;
+    margin: 0;
+    background-color: #045FB4;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+p {
+    padding-top: 20px;
+    width: 797px;
+    margin: auto;
+    text-align: justify;
+    
+}
+
+a:hover {
+    color: red;
+}
+
+a {
+    color: #2E2E2E;
+}
+
+#aside-config {
+    border: 1px solid black;
+    position: fixed;
+    right: 0;
+    background-color: #F2F2F2;
+    padding: 10px;
+    width: 275px;
+    height: 300px;
+}
+
+#sub-heroTitle {
+    font-size: 35px;
+}
+
+#footer-config {
+    clear: both;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    background-color: cadetblue;
+}
+
+.table-config {
+    border: 1px solid;
+    margin: auto;
+}
+
+.table-config th, td {
+    border: 1px solid;
+    padding: 5px;
+}
+
+.links-config {
+    text-align: center;
+    padding: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #58ACFA;
+} 
+
+.li-config {
+    display: inline-block;
+    margin-right: 50px;
+    font-weight: 700;
+}
