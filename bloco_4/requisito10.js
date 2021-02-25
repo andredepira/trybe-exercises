@@ -4,4 +4,8 @@ let vendaProduto = 80;
 let custoTotal = custoProduto + impostoCusto;
 let lucro = vendaProduto - custoTotal;
 
-console.log(lucro * 1000);
+if (custoProduto < 0 || impostoCusto < 0 || vendaProduto < 0) {
+    console.log("Erro. Valor inserido inválido!")
+} else {
+    console.log(lucro * 1000);
+}
