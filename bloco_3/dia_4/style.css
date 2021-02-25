@@ -1,107 +1,63 @@
 body {
-    margin: 0;
-    font-family: 'Roboto',Arial, sans-serif;
+    font-family: Georgia, Arial, sans-serif;
+    font-weight: normal;
+    line-height: 30px;
+    width: 70%;
 } 
 
-#main-config { 
-    float: left;
-    margin-left: 510px;
-}
-
-h1 {
+h1, h2 {
     text-align: center;
-}
-
-h2 {
-    text-align: center;
-}
-
-h5 {
-    margin: 0px;
+    padding: 30px;
 }
 
 a {
     text-decoration: none;
-}
-
-figure img {
-    display: block;
-    margin: auto;
-}
-
-table {
-    text-align: left;
-}
-
-header h1{
-    font-size: 50px;
-    padding: 70px;
-    margin: 0;
-    background-color: #045FB4;
-}
-
-h2 {
-    font-size: 35px;
-}
-
-p {
-    padding-top: 20px;
-    width: 797px;
-    margin: auto;
-    text-align: justify;
-    
+    color: #2e2e2e;
 }
 
 a:hover {
     color: red;
 }
 
-a {
-    color: #2E2E2E;
+img {
+    display: block;
+    max-width: 100%;
 }
 
-#aside-config {
-    border: 1px solid black;
-    position: fixed;
-    right: 0;
-    background-color: #F2F2F2;
-    padding: 10px;
-    width: 275px;
-    height: 300px;
+p {
+    text-align: justify;
 }
 
-#sub-heroTitle {
-    font-size: 35px;
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 20px;
 }
 
-#footer-config {
-    clear: both;
-    margin: 0;
-    padding: 10px;
+nav ul {
+    font-weight: 700;
     text-align: center;
-    background-color: cadetblue;
+    padding: 15px;
+    margin: 0px;
 }
 
-.table-config {
-    border: 1px solid;
+nav {
+    background-color: #58acfa;
+}
+
+.align {
     margin: auto;
 }
 
-.table-config th, td {
-    border: 1px solid;
-    padding: 5px;
+#h1-decoration {
+    font-size: 40px;
+    height: 100px;
+    background-color: #045fb4;
+    margin: 0;
 }
 
-.links-config {
+#footer-decoration {
+    margin-bottom: 0px;
     text-align: center;
-    padding: 20px;
-    margin-top: 0;
-    margin-bottom: 0;
-    background-color: #58ACFA;
-} 
-
-.li-config {
-    display: inline-block;
-    margin-right: 50px;
-    font-weight: 700;
+    background-color: silver;
 }
